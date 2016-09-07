@@ -1,4 +1,4 @@
-FROM demoregistry.dataman-inc.com/library/centos7-base:latest
+FROM demoregistry.dataman-inc.com/library/centos7-base:20160907193907
 MAINTAINER pro zpang@dataman-inc.com
 
 RUN wget https://github.com/eBay/fabio/releases/download/v1.2.1/fabio-1.2.1-go1.7_linux-amd64 -O /fabio && \
