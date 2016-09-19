@@ -1,7 +1,7 @@
 FROM demoregistry.dataman-inc.com/library/centos7-base:20160907193907
 MAINTAINER pro zpang@dataman-inc.com
 
-RUN wget https://github.com/eBay/fabio/releases/download/v1.2.1/fabio-1.2.1-go1.7_linux-amd64 -O /fabio && \
+RUN wget https://github.com/eBay/fabio/releases/download/v1.3.2/fabio-1.3.2-go1.7.1_linux-amd64  -O /fabio && \
     chmod 755 /fabio
 
 ENTRYPOINT ["/fabio"]
